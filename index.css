@@ -11,7 +11,15 @@
   align-items: flex-start;
   justify-content: center;
   border: 1px solid black;
-  min-height: 70vh;
+  min-height: 65vh;
   max-width: 40vh;
   padding: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
