@@ -26,4 +26,5 @@
 
 .learn-button {
   border-radius: 25px;
+  align-items: flex-end;
 }
