@@ -10,11 +10,10 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
-
   min-height: 55vh;
   max-width: 25vh;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 45px;
+  padding-right: 45px;
 }
 
 .main-text {
@@ -29,12 +28,6 @@
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-.learn-button {
-  border-radius: 25px;
-  font-family: "Lexend Deca", sans-serif;
-  background-color: hsl(0, 0%, 95%);
 }
 
 #sedan {
@@ -56,4 +49,33 @@
 h1 {
   font-family: "Big Shoulders Display", cursive;
   color: hsl(0, 0%, 95%);
+}
+
+#sedan .learn-button {
+  border-radius: 25px;
+  border: none;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  padding: 15px;
+  outline: none;
+  color: hsl(31, 77%, 52%);
+}
+
+#suv .learn-button {
+  border-radius: 25px;
+  border: none;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  padding: 15px;
+  outline: none;
+  color: hsl(184, 100%, 22%);
+}
+#luxury .learn-button {
+  border-radius: 25px;
+  border: none;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  padding: 15px;
+  outline: none;
+  color: hsl(179, 100%, 13%);
 }
