@@ -23,3 +23,7 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+.learn-button {
+  border-radius: 25px;
+}
