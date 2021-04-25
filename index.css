@@ -34,10 +34,13 @@
 .learn-button {
   border-radius: 25px;
   font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
 }
 
 #sedan {
   background-color: hsl(31, 77%, 52%);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 #suv {
@@ -46,9 +49,11 @@
 
 #luxury {
   background-color: hsl(179, 100%, 13%);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-h2 {
+h1 {
   font-family: "Big Shoulders Display", cursive;
   color: hsl(0, 0%, 95%);
 }
