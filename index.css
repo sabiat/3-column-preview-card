@@ -16,6 +16,10 @@
   padding: 10px;
 }
 
+.main-text {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -27,4 +31,16 @@
 .learn-button {
   border-radius: 25px;
   align-items: flex-end;
+}
+
+#sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+#suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+  background-color: hsl(179, 100%, 13%);
 }
