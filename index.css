@@ -51,7 +51,7 @@ h1 {
   color: hsl(0, 0%, 95%);
 }
 
-#sedan .learn-button {
+.learn-button {
   border-radius: 25px;
   border: none;
   font-family: "Lexend Deca", sans-serif;
@@ -62,32 +62,21 @@ h1 {
   padding-bottom: 12px;
   margin-bottom: 10px;
   outline: none;
+}
+
+.learn-button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#sedan .learn-button {
   color: hsl(31, 77%, 52%);
 }
 
 #suv .learn-button {
-  border-radius: 25px;
-  border: none;
-  font-family: "Lexend Deca", sans-serif;
-  background-color: hsl(0, 0%, 95%);
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  margin-bottom: 10px;
-  outline: none;
   color: hsl(184, 100%, 22%);
 }
+
 #luxury .learn-button {
-  border-radius: 25px;
-  border: none;
-  font-family: "Lexend Deca", sans-serif;
-  background-color: hsl(0, 0%, 95%);
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  margin-bottom: 10px;
-  outline: none;
   color: hsl(179, 100%, 13%);
 }
