@@ -14,16 +14,16 @@ body {
   align-items: flex-start;
   justify-content: space-around;
   min-height: 55vh;
-  max-width: 20vh;
+  max-width: 25vh;
   padding-left: 45px;
   padding-right: 45px;
-  padding-top: 8px;
+  padding-top: 6px;
 }
 
 .main-text {
   color: hsla(0, 0%, 100%, 0.75);
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 1.9;
   font-family: "Lexend Deca", sans-serif;
 }
 
@@ -51,9 +51,10 @@ body {
   border-top-right-radius: 10px;
 }
 
-h1 {
+h2 {
   font-family: "Big Shoulders Display", cursive;
   color: hsl(0, 0%, 95%);
+  font-size: 35px;
 }
 
 .learn-button {
@@ -61,10 +62,7 @@ h1 {
   border: none;
   font-family: "Lexend Deca", sans-serif;
   background-color: hsl(0, 0%, 95%);
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 12px 25px;
   margin-bottom: 10px;
   outline: none;
 }
@@ -102,5 +100,16 @@ h1 {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 0px;
+  }
+
+  .card {
+    max-width: 30vh;
+    min-height: 60vh;
+    padding: 10px 45px;
+  }
+
+  .main-text {
+    font-size: 15px;
+    line-height: 1.9;
   }
 }
