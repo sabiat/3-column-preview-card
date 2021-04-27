@@ -1,6 +1,10 @@
 body {
   background-color: hsl(0, 0%, 95%);
 }
+
+img {
+  max-width: 50px;
+}
 .container {
   display: flex;
   align-items: center;
@@ -109,7 +113,14 @@ h2 {
   }
 
   .main-text {
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.9;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+  img {
+    max-width: 70px;
   }
 }
