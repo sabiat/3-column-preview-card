@@ -76,8 +76,10 @@ h2 {
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-#sedan .learn-button {
-  color: hsl(31, 77%, 52%);
+#sedan {
+  .learn-button {
+    color: hsl(31, 77%, 52%);
+  }
 }
 
 #suv .learn-button {
